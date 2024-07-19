@@ -231,8 +231,9 @@ a:hover{
 .section_2_text{
   max-width: 1000px;
   margin-right: 5em;
-
+  overflow: hidden
 }
+
 .section_2_text p{
   font-size: 1.8em;
   line-height: 1.5em;
@@ -355,7 +356,6 @@ a:hover{
 }
 
 .project_pictures img{
-  max-width: 550;
   height: auto;
   margin-left: 3em;
 }

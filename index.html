@@ -7,6 +7,47 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title> Cattareeya Chernyshkin Portfolio</title>
 </head>
+<style>
+@keyframes appear{
+  from{
+    opacity: 0;
+    transform: translateY(-100px);
+
+  }
+
+  to{
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+
+@keyframes appear_2{
+  from{
+    opacity: 0;
+    transform: translateX(100px);
+
+  }
+
+  to{
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+.scroll_animate1{
+  animation: appear linear;
+   animation-timeline: view();
+   animation-range: entry 0% cover 40%;
+    
+  }
+
+  .scroll_animate2{
+  animation: appear_2 linear;
+   animation-timeline: view();
+   animation-range: entry 0% cover 40%;
+    
+  }
+
+</style>
 
 <body>
   <section class="section_1">
@@ -64,19 +105,20 @@
 
   </section>
 
-  <section class="section_2">
-    <div class="section_2_text">
-       <p> " I'm looking for <span> new challeges</span> in my life to improve my skills and myself with my knowledge and ability"</p>
-        <p> " I am ready to do my <span> best </span> "</p>
+  <section class="section_2 ">
+    <div class="section_2_text scroll_animate1">
+       <p class="scroll_animate1"> " I'm looking for <span> new challeges</span> in my life to improve my skills and myself with my knowledge and ability"</p>
+        <p class="scroll_animate1"> " I am ready to do my <span> best </span> "</p>
     </div>
    
   </section>
 
   <section class="section_3">
 
+      <!-- header UX UI-->
       <div class="section_3_header">
-        <h1> UX/UI DESIGNER </h1>
-        <div> 
+        <h1 class="scroll_animate1"> UX/UI DESIGNER </h1>
+        <div class="scroll_animate1"> 
             <h2> User research </h2>
             <h2> Empathy </h2>
             <h2> Wireframing </h2>
@@ -91,8 +133,8 @@
       <div class="project_contain">
 
         <!-- Project 1-->
-          <div class="contain">            
-            <div class="project_detail">
+          <div class="contain ">            
+            <div class="project_detail scroll_animate1">
               <div>
                 <h3> BOBO Shabu and Sushi </h3>
                 <p> <span> < Application ></Application></span> </p>
@@ -106,7 +148,7 @@
               </div>
             </div>
 
-            <div class="project_pictures">
+            <div class="project_pictures scroll_animate2" >
               <img src="images/section_3/show_0.png" alt="bobo picture">
               <img src="images/section_3/show_1.png" alt="bobo picture">
               <img src="images/section_3/show_2.png" alt="bobo picture">
@@ -115,7 +157,7 @@
 
         <!-- Project 2 -->
         <div class="contain">            
-          <div class="project_detail">
+          <div class="project_detail scroll_animate1">
             <div>
               <h3> Amazing Wall </h3>
               <p><span> < Application ></Application></span> <span> < website > </span></p>
@@ -129,7 +171,7 @@
             </div>
           </div>
 
-          <div class="project_pictures">
+          <div class="project_pictures scroll_animate2">
             <img src="images/section_3/show_0.png" alt="bobo picture">
             <img src="images/section_3/show_1.png" alt="bobo picture">
             <img src="images/section_3/show_2.png" alt="bobo picture">
@@ -140,9 +182,10 @@
       </div>
     </div>
 
+    <!--header Web-->
     <div class="section_3_header">
-      <h1> WEB DEVELOPER </h1>
-      <div> 
+      <h1 class="scroll_animate1"> WEB DEVELOPER </h1>
+      <div class=" scroll_animate1"> 
         <h2> UX/UI </h2>
         <h2> HTML </h2>
         <h2> CSS </h2>
@@ -156,7 +199,7 @@
       
       <!-- Project 1-->
       <div class="contain">            
-        <div class="project_detail">
+        <div class="project_detail scroll_animate1">
           <div>
             <h3> Name project </h3>
             <p> Application </p>
@@ -170,7 +213,7 @@
           </div>
         </div>
 
-        <div class="project_pictures">
+        <div class="project_pictures scroll_animate1">
           <img src="images/section_3/show_0.png" alt="bobo picture">
           <img src="images/section_3/show_1.png" alt="bobo picture">
           <img src="images/section_3/show_2.png" alt="bobo picture">
@@ -179,7 +222,7 @@
 
     <!-- Project 2 -->
     <div class="contain">            
-      <div class="project_detail">
+      <div class="project_detail scroll_animate1">
         <div>
           <h3> Name project </h3>
           <p> Application </p>
@@ -193,7 +236,7 @@
         </div>
       </div>
 
-      <div class="project_pictures">
+      <div class="project_pictures scroll_animate2">
         <img src="images/section_3/show_0.png" alt="bobo picture">
         <img src="images/section_3/show_1.png" alt="bobo picture">
         <img src="images/section_3/show_2.png" alt="bobo picture">
