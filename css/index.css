@@ -100,7 +100,7 @@ header {
 a{
   text-decoration: none;
   color: var(--black-color);
-  font-size: 1.3em;
+  font-size: 1.2em;
   font-family: "Kreon", serif;
 }
 
@@ -180,7 +180,7 @@ a:hover{
   background-color: var(--white-color);
   padding: .8em;
   border-radius: 2em;
-  font-size: 1.8em;
+  font-size: 1.5em;
 }
 
 .text_header .col1 i:hover{
@@ -204,7 +204,7 @@ a:hover{
 
 .text_header .col2 h4{
   color: var(--grey-color);
-  font-size: 2em;
+  font-size: 1.8em;
   padding: 1em auto;
 }
 
@@ -218,7 +218,7 @@ a:hover{
   display: flex;
   align-items: end;
   flex-direction: column;
-  background: url(images/header_navbar/profile_picture_1.jpg) no-repeat center top;
+  background: url(/images/header_navbar/profile_picture_1.jpg) no-repeat center top;
   background-attachment: fixed;
   color: var(--white-color);
   background-size: cover;
@@ -234,7 +234,7 @@ a:hover{
 
 }
 .section_2_text p{
-  font-size: 2em;
+  font-size: 1.8em;
   line-height: 1.5em;
   word-spacing: 5px;
   letter-spacing: 2px;
@@ -244,7 +244,7 @@ a:hover{
 
 .section_2_text p:nth-child(2){
   padding-top: 1.5em;
-  font-size: 2.5em;
+  font-size: 2.2em;
   font-family: "Syncopate", sans-serif;
   font-weight: 700;
 
@@ -273,7 +273,7 @@ a:hover{
 }
 
 .section_3_header h1{
-  font-size: 3.5em;
+  font-size: 3em;
 }
 
 .section_3_header div{
@@ -317,7 +317,7 @@ a:hover{
 }
 
 .project_detail h3{
-  font-size: 1.8em;
+  font-size: 1.5em;
   color: var(--red--color);
 }
 
@@ -355,7 +355,7 @@ a:hover{
 }
 
 .project_pictures img{
-  max-width: 600;
+  max-width: 550;
   height: auto;
   margin-left: 3em;
 }
