@@ -271,7 +271,7 @@ a:hover{
   flex-direction: row;
   justify-content: space-between;
   padding-bottom: 2em;
-  padding-top: 15em;
+  padding-top: 10giem;
 }
 
 .section_3_header h1{
@@ -358,11 +358,8 @@ a:hover{
 
 .project_pictures img{
   height: auto;
+  border-radius: 5px;
 
-}
-
-.project_pictures img:first-child{
-  border-radius: 10px;
 }
 
 
