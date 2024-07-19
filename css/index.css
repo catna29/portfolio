@@ -218,7 +218,7 @@ a:hover{
   display: flex;
   align-items: end;
   flex-direction: column;
-  background: url(/images/header_navbar/profile_picture_1.jpg) no-repeat center top;
+  background: url(images/header_navbar/profile_picture_1.jpg) no-repeat center top;
   background-attachment: fixed;
   color: var(--white-color);
   background-size: cover;
