@@ -279,14 +279,14 @@ a:hover{
 }
 
 .section_3_header div{
-  font-size: 1em;
   line-height: 1.5em;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
 }
 
-.section_3_header div h4{
+.section_3_header div h3{
+  font-size: 1.3em;
   margin: auto .8em;
   color: rgb(87, 87, 87);
   font-family: "Kreon", serif;
@@ -374,7 +374,6 @@ footer{
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background: url(/images/footer_background.jpg) no-repeat center top;
   padding: 7rem;
   color: var(--white-color);
   text-align: center;
