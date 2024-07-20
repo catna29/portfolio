@@ -219,7 +219,7 @@ a:hover{
   display: flex;
   align-items: end;
   flex-direction: column;
-  background: url(/images/header_navbar/profile_picture_1.jpg) no-repeat center top;
+  background: url(../images/header_navbar/profile_picture_1.jpg) no-repeat center top;
   background-attachment: fixed;
   color: var(--white-color);
   background-size: cover;
@@ -271,7 +271,7 @@ a:hover{
   flex-direction: row;
   justify-content: space-between;
   padding-bottom: 2em;
-  padding-top: 10giem;
+  padding-top: 8em;
 }
 
 .section_3_header h1{
