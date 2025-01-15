@@ -142,7 +142,7 @@ a:hover{
 /* important for put class in side dropdown*/
 
 .dropdown_menu.open{
-  height: 260px;
+  height: 200px;
   padding: 2em 0em;
 }
 
@@ -385,7 +385,7 @@ footer p{
 
 
 
-@media (max-width: 990px){
+@media (max-width: 768px){
   
   /* close menu */
   .navbar .links,
