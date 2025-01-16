@@ -65,110 +65,84 @@
 </style>
 
 <body>
-  <section class="section_1">
-    
+  <!-- header Web -->
+  <div class="header_cover">
     <header>
-
-    <!-- navbar full screen -->
+     <!-- navbar full screen -->
       <div class="navbar">
 
-          <div class="logo"> 
-            <a href="index.html">
-            <img src="images/header_navbar/logo.png" width="150px" alt="logo">
+        <div class="logo"> 
+          <a href="index.html">
+              <!--<img src="images/header_navbar/logo.png" width="150px" alt="logo"> -->
+          <p class="logo_name animated-text"> Cattareeya</p>
           </a></div>
-          
+            
           <ul class="links">
               <li><a href="index.html" class="active"> Home </a></li>
-              <li><a href="#"> Contact </a></li>
               <li><a href="#"> Resume </a></li>
 
           </ul>
-          
+            
           <div class="toggle_btn">
             <i class="fa-solid fa-bars"></i>
           </div>
-      </div>
+        </div>
 
-      <!-- you need to create dropdown before -->
-      <div class="dropdown_menu">
-        <li><a href="#"> Home </a></li>
-        <li><a href="#"> Contact </a></li>
-        <li><a href="#"> Resume </a></li>
-      </div>
-
+        <!-- you need to create dropdown before -->
+        <div class="dropdown_menu">
+          <li><a href="index.html"> Home </a></li>
+          <li><a href="#"> Resume </a></li>
+        </div>
+        
     </header>
 
     <div class="text_header hidden">
-      <div class=" col2">
+      <div class="header_details">
         <h1> <span>UX/UI </span>  DESIGNER </h1>
         <h1> <span> WEB</span> DEVELOPER </h1>
-        <h4> I'm Cattareeya Chernyshkin </h4>
-      </div>
-
-      <div class="col1">
-        <ul>
-          <li><i class="fa-brands fa-linkedin-in"></i></li>
-          <li><i class="fa-brands fa-behance"></i></li>
-          <li><i class="fa-brands fa-github"></i></li>
-          <li><i class="fa-brands fa-instagram"></i></li>
-        </ul>
+        <h4> Cattareeya Chernyshkin </h4>
         
+        <div class="icons_contact">
+          <ul>
+            <li><i class="fa-brands fa-linkedin-in"></i></li>
+            <li><i class="fa-brands fa-behance"></i></li>
+            <li><i class="fa-brands fa-github"></i></li>
+            <li><i class="fa-brands fa-instagram"></i></li>
+          </ul> 
+        </div>
       </div>
     </div>
+  </div>
 
-  </section>
-
-  <section class="section_2 " >
+  <!-- my statement-->
+  <section class="section_2" >
+    <div class="free_box"></div>
     <div class="section_2_text hidden">
-       <p class="scroll_animate1"> " I'm looking for <span> new challeges</span> in my life to improve my skills and myself with my knowledge and ability"</p>
-        <p class="scroll_animate1"> " I am ready to do my <span> best </span> "</p>
+      <p class="scroll_animate1"> " I'm looking for <span> new challeges</span> in my life to improve my skills and myself with my knowledge and ability"</p>
+      <p class="scroll_animate1 animated-text"> " I am ready to do my  best "</p>
     </div>
-   
   </section>
 
+  <!-- show project -->
   <section class="section_3">
 
-      <!-- header UX UI-->
-      <div class="section_3_header">
-        <h1 class="hidden"> UX/UI DESIGNER </h1>
-      </div>
+    <!-- header UX UI-->
+    <div class="section_3_header">
+      <h1 class="hidden animated-text"> UX/UI DESIGNER </h1>
       <hr>
+    </div>
 
 
-      <div class="project_contain">
+    <div class="project_contain">
 
-        <!-- Project 1-->
-          <div class="contain ">            
-            <div class="project_detail hidden">
-              <div>
-                <a href="http://bobo.thecatna.com">
-                  <h3> BOBO Shabu and Sushi </h3>
-                </a>
-                
-                <p> <span> < Application ></Application></span> </p>
-                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                  Proin nec massa et est tincidunt lacinia. Nullam ut justo nec purus ultrices cursus.
-                </p>
-              </div>
-              <div class="image_detail">
-                <img src="images/section_3/logo.png" alt="">
-                <img src="images/section_3/logo.png" alt="">
-              </div>
-            </div>
-
-            <div class="project_pictures hidden1">
-              <img src="images/section_3/show_1.png" alt="bobo picture">
-              <img src="images/section_3/show_2.png" alt="bobo picture">
-              <img src="images/section_3/show_3.png" alt="bobo picture">
-            </div>
-          </div>
-
-        <!-- Project 2 -->
-        <div class="contain">            
+      <!-- Project 1-->
+      <div class=" contain">            
           <div class="project_detail hidden">
             <div>
-              <h3> Amazing Wall </h3>
-              <p><span> < Application ></Application></span> <span> < website > </span></p>
+              <a href="http://bobo.thecatna.com">
+                <h3> BOBO Shabu and Sushi </h3>
+              </a>
+              
               <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                 Proin nec massa et est tincidunt lacinia. Nullam ut justo nec purus ultrices cursus.
               </p>
@@ -179,80 +153,123 @@
             </div>
           </div>
 
-          <div class="project_pictures hidden1">
+          <div class="project_pictures hidden">
             <img src="images/section_3/show_1.png" alt="bobo picture">
+          </div>
+          <div class="project_moblie hidden">
             <img src="images/section_3/show_2.png" alt="bobo picture">
             <img src="images/section_3/show_3.png" alt="bobo picture">
           </div>
-        </div>
-
-
       </div>
-    </div>
 
-    <!--header Web-->
-    <div class="section_3_header">
-      <h1 class="hidden"> WEB DEVELOPER </h1>
-    </div>
-    <hr>
-
-    <div class="project_contain">
-      
-      <!-- Project 1-->
+      <!-- Project 2 -->
       <div class="contain">            
         <div class="project_detail hidden">
           <div>
-            <a href="http://election.thecatna.com/">
-              <h3> USA Election 2024 </h3>
-            </a>
-            <p><span> < Application ></Application></span> <span> < website > </span></p>
+            <h3> Amazing Wall </h3>
+          
             <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
               Proin nec massa et est tincidunt lacinia. Nullam ut justo nec purus ultrices cursus.
             </p>
           </div>
+          <div class="image_detail">
+            <img src="images/section_3/logo.png" alt="">
+            <img src="images/section_3/logo.png" alt="">
+          </div>
         </div>
 
-        <div class="project_pictures hidden1">
-          <img src="images/election/home.gif" alt="bobo picture">
-          <img src="images/election/phone_home.gif" alt="bobo picture">
-          <img src="images/election/joe.png" alt="bobo picture">
+        <div class="project_pictures hidden">
+          <img src="images/section_3/show_1.png" alt="bobo picture">
         </div>
-
+        <div class="project_moblie hidden">
+          <img src="images/section_3/show_2.png" alt="bobo picture">
+          <img src="images/section_3/show_3.png" alt="bobo picture">
+   
+        </div>
+        
       </div>
+    </div>
+  </div>
 
-    <!-- Project 2 -->
+  <!--header Web-->
+  <div class="section_3_header">
+    <h1 class="hidden animated-text"> WEB DEVELOPER </h1>
+    <hr>
+  </div>
+  
+
+  <div class="project_contain">
+    
+    <!-- Project 1-->
     <div class="contain">            
       <div class="project_detail hidden">
         <div>
-          <a href="http://iceedge.thecatna.com/">
-            <h3> Iceedge  </h3>
+          <a href="http://election.thecatna.com/">
+            <h3> USA Election 2024 </h3>
           </a>
-          <p><span> < Application ></Application></span> <span> < website > </span></p>
+        
           <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
             Proin nec massa et est tincidunt lacinia. Nullam ut justo nec purus ultrices cursus.
           </p>
-        </div>
-        <div class="image_detail">
-          <img src="images/section_3/logo.png" alt="">
-          <img src="images/section_3/logo.png" alt="">
+          <div class="image_detail">
+            <img src="images/section_3/logo.png" alt="">
+            <img src="images/section_3/logo.png" alt="">
+          </div>
         </div>
       </div>
 
-      <div class="project_pictures hidden1">
-        <img src="images/ski/home.gif" alt="bobo picture">
-        <img src="images/ski/payment.gif" alt="bobo picture">
-        <img src="images/ski/confirmation.png" alt="bobo picture">
+      <div class="project_pictures hidden">
+        <img src="images/election/home.gif" alt="bobo picture">
+      </div>
+
+      <div class="project_moblie hidden">
+        <img src="images/election/phone_home.gif" alt="bobo picture">
+        <img src="images/election/joe.png" alt="bobo picture">
+      </div>
+
+    </div>
+
+  <!-- Project 2 -->
+  <div class="contain">            
+    <div class="project_detail hidden">
+      <div>
+        <a href="http://iceedge.thecatna.com/">
+          <h3> Iceedge  </h3>
+        </a>
+       
+        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+          Proin nec massa et est tincidunt lacinia. Nullam ut justo nec purus ultrices cursus.
+        </p>
+      </div>
+      <div class="image_detail">
+        <img src="images/section_3/logo.png" alt="">
+        <img src="images/section_3/logo.png" alt="">
       </div>
     </div>
+
+    <div class="project_pictures hidden">
+      <img src="images/ski/home.gif" alt="bobo picture">
     </div>
+
+    <div class="project_moblie hidden">
+      <img src="images/ski/payment.gif" alt="bobo picture">
+      <img src="images/ski/confirmation.png" alt="bobo picture">
+    </div>
+  </div>
 
   </section>
 
+  <!-- footer -->
   <footer>
-    <h2> THANK YOU SO MUCH FOR VISITING </h2>
-    <p> Cattareeyatala29@gmail.com </p>
-    <p> (669) 288 8586 </p>
+    <h2> Thank You </h2>
+    <div class="contact_me">
+      <p> Cattareeyatala29@gmail.com </p>
+      <p> (669) 288 8586 </p>
+    </div>
+   
   </footer>
+
+
 
 
   <script src="js/index.js"></script>
