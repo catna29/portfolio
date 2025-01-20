@@ -13,7 +13,7 @@
 .animated-text {
   font-size: 4rem;
   font-weight: bold;
-  background: linear-gradient(90deg, #AD343e, #f2af29, #6a9b9b, #AD343e);
+  background: linear-gradient(90deg, #AD343e, #f2af29, #1f1f1f, #AD343e);
   background-size: 300%;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -31,7 +31,7 @@
 
 
 :root{
-  --white-color: #e0e0ce ;
+  --white-color: #ffffff ;
   --red--color: #AD343e;
   --grey-color: #807f7f;
   --yellow-color: #f2af29;
@@ -239,44 +239,45 @@ a:hover{
 .section_2{
   max-width: 100%;
   margin: 0 auto;
-  padding: 2rem;
-  height: 100vh;
+  height: 80vh;
   box-sizing: border-box;
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  background: url(../images/header_navbar/profile_picture_1.jpg) no-repeat center top;
+  background: url(../images/profile.jpg) no-repeat center top;
   background-attachment: fixed;
-  color: var(--white-color);
   background-size: cover;
 }
 
-.free_box{
-  width: 50%;
-  margin: auto;
+.free_box img{
+  border-radius: 5px;
+  max-width: 100%;
 }
 
+
 .section_2_text{
-  width: 50%;
+  width: 85%;
+  display: flex;
+  flex-direction: column;
   margin: auto;
   overflow: hidden
 }
 
 .section_2 span{
-  color: var(--yellowneon);
+  color: var(--red--color);
 }
 
-.section_2_text p{
-  font-size:clamp(1.2rem, 4vw, 2rem);
+.section_2_text p:first-child{
+  max-width: 550px;
+  font-size:clamp(1.3rem, 5vw, 2rem);
   line-height: 1.5em;
   word-spacing: 5px;
   letter-spacing: 2px;
+
 }
 
 .section_2_text p:nth-child(2){
   padding-top: 1.5em;
-  color: var(--white-color);
-  font-size:clamp(1rem, 3vw, 1.8rem);
+  color: var(--black-color);
+  font-size:clamp(1rem, 5vw, 1.8rem);
   font-family: "Syncopate", sans-serif;
   font-weight: 700;
 }
@@ -298,11 +299,9 @@ a:hover{
   margin: 0 auto;
 }
 .section_3_header {
-  padding: 0 3rem;
   display:block;
   text-align: left;
-  padding-bottom: 2em;
-  padding-top: 5em;
+  padding: 3em 2em 2em 2em;
 }
 
 .section_3_header h1{
@@ -440,10 +439,22 @@ footer .contact_me {
   .dropdown_menu{
     display: block;
   }
-
+  
   .project_contain{
     margin-top: 6em;
   }
+
+    /* section 2 */
+  .section_2{
+    background: url(../images/profile_750*800.jpg) no-repeat center top;
+  }
+
+  /* section 2 */
+.section_2{
+  padding: 2.5rem 0;
+  display: block;
+}
+
 
   .section_3_header {
     padding-bottom: 0em;
